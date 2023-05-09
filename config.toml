@@ -1,0 +1,84 @@
+
+
+	
+baseurl = "https://csiecamp.github.io"
+
+languageCode = "zh-tw" 
+
+
+title = "carat" 
+
+buildDrafts = false 
+theme = "PaperMod"
+
+[[menu.main]]
+
+identifier = "tags"
+
+name = "Tags"
+
+url = "/tags/"
+
+weight = 10
+
+[[menu.main]]
+
+identifier = "categories"
+
+name = "Categories"
+
+url = "/categories/"
+
+weight = 20
+
+[[menu.main]]
+
+identifier = "archives"
+
+name = "Archives"
+
+url = "/archives/"
+
+weight = 30
+
+[params.profileMode]
+enabled = true
+title = "F*ck my life"
+subtitle = "F*ck my company"
+imageUrl = "img/name.jpg"
+imageWidth = 240
+imageHeight = 300
+imageTitle = "Enter the content"
+
+[[params.profileMode.buttons]]
+name = "Blog"
+url = "/posts/"
+
+[[params.profileMode.buttons]]
+name = "Categories"
+url = "/categories/"
+
+[[params.socialIcons]]
+name = "instagram"
+url = "https://www.instagram.com/saythename_17/"
+
+[[params.socialIcons]]
+name = "youtube"
+url = "https://www.youtube.com/channel/UCfkXDY7vwkcJ8ddFGz8KusA"
+
+[[params.socialIcons]]
+name = "spotify"
+url = "https://open.spotify.com/artist/7nqOGRxlXj7N2JYbgNEjYH"
+
+[params] 
+ShowBreadCrumbs = true    
+
+ShowReadingTime = true    
+
+ShowShareButtons = true    
+
+ShowPostNavLinks = true    
+
+
+[params.cover]
+linkFullImages = true    
